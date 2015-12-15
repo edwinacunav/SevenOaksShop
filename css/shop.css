@@ -1,0 +1,172 @@
+.main-header {
+	background-image: url("../img/hero-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25em;
+	z-index: 1;
+}
+.navbar-default {
+	background-color: #FFF;
+	border-radius: 0;
+	border: 0 none;
+}
+.navbar-nav > li > a {
+	padding: 0;
+}
+.heading-box {
+	position: absolute;
+	top: 125px;
+	color: white;
+	background-color: rgba(55,140,160,0.6);/*009ab2;*/
+	z-index: 100;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 16px;
+	padding-bottom: 10px;
+	/*margin-top: 200px;*/
+}
+main {
+	background-color: #f4efeb;
+}
+footer {
+	background-color: #515151;
+	color: white;
+}
+.shop-main {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.shop-row {
+	padding-bottom: 20px;
+}
+/*.product-box {
+	border-width: 2px;
+	border-color: black;
+}*/
+.product-box > img {
+	width: 100%;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ece3dc;
+}
+.label-box {
+	color: white;
+	background-color: #ff725e;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.price-box {
+	color: white;
+	background-color: #009ab2;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+}
+.navbar-misc {
+	background-color: rgba(55,140,160,0.6);
+	margin-top: 1.25em;
+	padding: 10px 22px 12px;
+	position: relative;
+  right: -30px;
+}
+.navbar-misc::after {
+	background-color: rgba(55,140,160,0.6);
+  width: 15px;
+  height: 40px;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  transform: skewY(-25deg);
+}
+.navbar-default .navbar-misc .fa-search {
+	color: #FFF;
+}
+.navbar-default .navbar-misc li:last-child {
+	margin-left: 80px;
+}
+.navbar-default .navbar-misc > li {
+	margin-left: 12px;
+}
+.navbar-default .navbar-misc > li:first-child {
+	margin: 0;
+}
+.navbar-default .navbar-misc > li > a {
+	color: #FFF;
+	font-size: 0.9em;
+}
+.navbar-default .navbar-misc > li > a::after {
+	content: "|";
+	margin-left: 10px
+}
+.navbar-default .navbar-misc > li:last-child > a::after {
+	content: "";
+	margin-left: 0;
+}
+.navbar-default .navbar-main > li > a {
+	color: #708e3d;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-main > li > a:hover {
+	color: #708e3d;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-main {
+	margin: 20px 15px 20px 0;
+}
+.navbar-default .navbar-main li {
+	margin-right: 50px;
+}
+.navbar-default .navbar-main li:last-child {
+	margin-right: 0;
+}
+.navbar-main li > a{
+	color: #708c3d;
+}
+.nav .navbar-nav .navbar-right .navbar-main > li.active > a {
+  color: #337ab7;
+}
+.footer-margin {
+	margin-top: 20px;
+	margin-bottom: 18px;
+}
+.padding-left {
+	padding-left: 40px;
+}
+.btn-info {
+	width: 275px;
+	margin-bottom: 30px;
+}
+.schedule p:first-child {
+	margin-bottom: 4px;
+	font-size: 16px;
+}
+.schedule p:last-child {
+	margin-top: 0;
+	font-size: 11px;
+	color: darkgray;
+}
+.grayed-out {
+	color: darkgray;
+}
+hr {
+	color: darkgray;
+	background-color: darkgray;
+	width: 97%;
+}
+i {
+	color: #fd755d;
+}
+.margin-bottom {
+	margin-bottom: 20px;
+}
